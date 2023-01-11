@@ -248,23 +248,52 @@ class _portfolioState extends State<portfolio> {
                   ),
                   Center(
                     child: Column(
-                      children: const [
-                        SizedBox(
+                      children: [
+                        const SizedBox(
                           height: 850,
                         ),
-                        Text(
+                        const Text(
                           'About',
                           style: TextStyle(
                             fontSize: 25,
                           ),
                         ),
-                        Divider(
+                        const Divider(
                           color: Color.fromARGB(255, 0, 0, 0),
                           thickness: 1,
                           height: 5,
                           indent: 590,
                           endIndent: 590,
                         ),
+                        const Text(
+                          '私とは',
+                          style: TextStyle(
+                            fontSize: 15,
+                          ),
+                        ),
+                        const SizedBox(
+                          height: 100,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 230),
+                          child: Container(
+                            color: const Color.fromARGB(255, 241, 241, 241),
+                            width: 750,
+                            height: 400,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Center(
+                    child: Column(
+                      children: [
+                        const SizedBox(
+                          height: 850,
+                        ),
+                        Image.asset(
+                            width: 130,
+                            'images/AdobeStock_162997552-1024x683のコピー.png'),
                       ],
                     ),
                   ),
