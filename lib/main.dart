@@ -232,26 +232,38 @@ class _portfolioState extends State<portfolio> {
                       ],
                     ),
                   ),
-                  Positioned(
-                    left: 90,
-                    top: 742,
-                    child: Container(
-                      color: const Color.fromARGB(255, 255, 253, 253),
-                      width: 400,
-                      height: 1000,
+                  Center(
+                    child: Column(
+                      children: [
+                        const SizedBox(
+                          height: 745,
+                        ),
+                        Container(
+                          color: const Color.fromARGB(255, 255, 253, 253),
+                          width: 1260,
+                          height: 1000,
+                        ),
+                      ],
                     ),
                   ),
                   Center(
                     child: Column(
                       children: const [
                         SizedBox(
-                          height: 1000,
+                          height: 850,
                         ),
                         Text(
-                          'Abou',
+                          'About',
                           style: TextStyle(
                             fontSize: 25,
                           ),
+                        ),
+                        Divider(
+                          color: Color.fromARGB(255, 0, 0, 0),
+                          thickness: 1,
+                          height: 5,
+                          indent: 590,
+                          endIndent: 590,
                         ),
                       ],
                     ),
