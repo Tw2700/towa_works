@@ -228,7 +228,7 @@ class _portfolioState extends State<portfolio> {
                     height: 1000,
                   ),
                   Text(
-                    'About',
+                    'Abou',
                     style: TextStyle(
                       fontSize: 25,
                     ),
